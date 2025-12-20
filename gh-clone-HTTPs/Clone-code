@@ -1,0 +1,341 @@
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ mkdir gh-clone-HTTPs
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ cd ./gh-clone-HTTPs/
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ git clone https://github.com/saumitra-rajput/GH-basics.git
+Cloning into 'GH-basics'...
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 15 (delta 2), reused 11 (delta 1), pack-reused 0 (from 0)
+Receiving objects: 100% (15/15), done.
+Resolving deltas: 100% (2/2), done.
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ ls
+GH-basics
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ ls -la
+total 12
+drwxrwxrwx+ 3 codespace codespace 4096 Dec 20 16:28 .
+drwxrwxrwx+ 5 codespace root      4096 Dec 20 16:28 ..
+drwxrwxrwx+ 4 codespace codespace 4096 Dec 20 16:28 GH-basics
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ cd ./GH-basics/
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ ls
+README.md  gh-00
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ code ./README.md
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ cd ..
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ git add git-clone-HTTPs
+fatal: pathspec 'git-clone-HTTPs' did not match any files
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ cd..
+bash: cd..: command not found
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ cd ..
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git add gh-clone-HTTPs/
+warning: adding embedded git repository: gh-clone-HTTPs/GH-basics
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> gh-clone-HTTPs/GH-basics
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached gh-clone-HTTPs/GH-basics
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git commit -m "clone push test 1"
+[main 27f45d4] clone push test 1
+ 1 file changed, 1 insertion(+)
+ create mode 160000 gh-clone-HTTPs/GH-basics
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 358 bytes | 358.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/saumitra-rajput/GH-basics
+   abedfa9..27f45d4  main -> main
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ cd git-clone-HTTPs
+bash: cd: git-clone-HTTPs: No such file or directory
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ ls
+README.md  gh-00  gh-clone-HTTPs
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ cd gh-clone-HTTps
+bash: cd: gh-clone-HTTps: No such file or directory
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ cd gh-clone-HTTPs
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ ls
+GH-basics
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ cd ./GH-basics/
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ ls
+README.md  gh-00
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ cd ..
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   GH-basics (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ ls
+GH-basics
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ cd ./GH-basics/
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ ls
+README.md  gh-00
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ cd ..
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ cd ./GH-basics/
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ git add README.md
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ git commit -m "Trying to commit the submodule"
+[main e0433a6] Trying to commit the submodule
+ 1 file changed, 44 insertions(+), 2 deletions(-)
+4@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ git push
+To https://github.com/saumitra-rajput/GH-basics.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/saumitra-rajput/GH-basics.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ cd ..
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ git add GH-basics
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ git rest
+git: 'rest' is not a git command. See 'git --help'.
+
+The most similar commands are
+        restore
+        reset
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ git reset
+Unstaged changes after reset:
+M       gh-clone-HTTPs/GH-basics
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ git add GH-basics
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ git commit -m "Trying to commit submodule"
+[main cd4ae1f] Trying to commit submodule
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 305 bytes | 305.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/saumitra-rajput/GH-basics
+   27f45d4..cd4ae1f  main -> main
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ cd ..
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ cd ..
+@saumitra-rajput ➜ /workspaces $ cd ./GH-basics/
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ ls
+README.md  gh-00  gh-clone-HTTPs
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ cd ..
+@saumitra-rajput ➜ /workspaces $ cd gh
+bash: cd: gh: No such file or directory
+@saumitra-rajput ➜ /workspaces $ cd ./GH-basics/
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git add ./gh-clone-HTTPs/
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git commit -m "Trying to commit a cloned repo submodule (Already done the commit and push in submodule)"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git reset
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git add ./gh-clone-HTTPs/
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git commit -m "Trying to commit a cloned repo submodule (Already done the commit and push in submodule)"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git push
+Everything up-to-date
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git add ./gh-clone-HTTPs/GH-basics/
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git commit -m "Trying to commit a cloned repo submodule (Already done the commit and push in submodule)"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ ls
+README.md  gh-00  gh-clone-HTTPs
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ cd ./gh-clone-HTTPs/GH-basics/
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ ls
+README.md  gh-00
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ git reset
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ git add .
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ git commit -m "trying to commit clone submodule inside clone repo"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ git push
+To https://github.com/saumitra-rajput/GH-basics.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/saumitra-rajput/GH-basics.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ cd ..
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ git add .
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ git commit -m "test"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ git push
+Everything up-to-date
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ cd..
+bash: cd..: command not found
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ cd ..
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git add .
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git commit -m "folder commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git push
+Everything up-to-date
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ ls
+README.md  gh-00  gh-clone-HTTPs
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ cd ./gh-clone-HTTPs/
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ ls
+GH-basics
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ cd ./GH-basics/
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ ls
+README.md  gh-00
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ code ./README.md
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ cd gh-clone-HTTPs/GH-Basics
+bash: cd: gh-clone-HTTPs/GH-Basics: No such file or directory
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ cd ..
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ ls
+GH-basics
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ 
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ cd ./GH-basics/
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ git reset
+Unstaged changes after reset:
+M       README.md
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ git add README.md
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ git commit -m "Update Readme in Submodule"
+[main 5aca7d8] Update Readme in Submodule
+ 1 file changed, 43 insertions(+), 2 deletions(-)
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ git push
+To https://github.com/saumitra-rajput/GH-basics.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/saumitra-rajput/GH-basics.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ ^C
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ git pull origin main
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 1), reused 6 (delta 1), pack-reused 0 (from 0)
+Unpacking objects: 100% (6/6), 592 bytes | 296.00 KiB/s, done.
+From https://github.com/saumitra-rajput/GH-basics
+ * branch            main       -> FETCH_HEAD
+   abedfa9..cd4ae1f  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ ^C
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ git pull --no-rebase origin main
+From https://github.com/saumitra-rajput/GH-basics
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ gh-clone-HTTPs/GH-basics | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 160000 gh-clone-HTTPs/GH-basics
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ git push origin main
+Enumerating objects: 12, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.49 KiB | 1.49 MiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/saumitra-rajput/GH-basics.git
+   cd4ae1f..4f885c7  main -> main
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs/GH-basics (main) $ cd ..
+@saumitra-rajput ➜ /workspaces/GH-basics/gh-clone-HTTPs (main) $ cd ..
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git add gh-clone-HTTPs/GH-basics
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git commit -m
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   gh-clone-HTTPs/GH-basics
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   gh-clone-HTTPs/GH-basics (modified content)
+
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git push
+To https://github.com/saumitra-rajput/GH-basics
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/saumitra-rajput/GH-basics'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git commit -m "Update submodule pointer"
+[main 99875be] Update submodule pointer
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git push
+To https://github.com/saumitra-rajput/GH-basics
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/saumitra-rajput/GH-basics'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git pull --no-rebase origin main
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 8 (delta 2), reused 8 (delta 2), pack-reused 0 (from 0)
+Unpacking objects: 100% (8/8), 1.47 KiB | 753.00 KiB/s, done.
+From https://github.com/saumitra-rajput/GH-basics
+ * branch            main       -> FETCH_HEAD
+   cd4ae1f..4f885c7  main       -> origin/main
+Merge made by the 'ort' strategy.
+ README.md | 87 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 85 insertions(+), 2 deletions(-)
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 586 bytes | 586.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/saumitra-rajput/GH-basics
+   4f885c7..511e9c9  main -> main
+@saumitra-rajput ➜ /workspaces/GH-basics (main) $ 
