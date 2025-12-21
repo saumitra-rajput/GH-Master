@@ -55,6 +55,51 @@ The change is gone
 
 Because main doesn’t have that commit
 
+## Merge branch into main
+Go to the main branch.
+
+Now bring the changes into main:
+```
+git merge devops
+```
+Result:
+
+Fast-forward merge
+
+README now includes the change
+
+## Delete the branch (cleanup)
+
+>-d (safe delete) 
+
+Git will delete the branch only if:
+
+The branch is fully merged
+
+No commits will be lost
+```
+git branch -d branch_name
+```
+>-D (force delete)
+
+Deletes the branch no matter what =
+Even if commits are NOT merged = 
+Can make commits harder to find
+
+Use this when:
+
+Branch is experimental, 
+You’re 100% sure you don’t need it, 
+You want to clean up
+```
+git branch -D branch_name
+```
+## Push branches to GitHub
+
+```
+git push
+```
+
 
 
 
