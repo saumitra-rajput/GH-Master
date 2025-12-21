@@ -36,6 +36,9 @@ git switch branch_name (Morden way)
 ```
 
 Make changes in the new branch
+```
+code README.md
+```
 ## Branching Practice
 This change is in learn-branching branch.
 
@@ -45,6 +48,18 @@ git add README.md
 git commit -m "Add branching practice notes"
 ```
 >This commit exists only in learn-branching.
+
+
+### Yes, it worked
+The change is gone
+
+Because main doesn’t have that commit
+
+
+
+
+
+
 
 
 
