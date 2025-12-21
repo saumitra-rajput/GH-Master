@@ -1,4 +1,56 @@
-## Sub folder with the Clone repo via HTTPS.
+## Branching.
+What is a Git branch? 
+
+A branch is an independent line of work
+
+>main = stable code
+
+Other branches = experiments / features / learning
+
+You can switch, merge, or delete branches safely
+
+
+>Branch = parallel universe
+
+To Create branch.
+```
+git branch branch_name
+```
+To list the branches
+```
+git branch
+```
+To delete the use flag -D followed by branch_name
+```
+git branch -D branch_name
+```
+To rename the branch if target exists use flag -M
+```
+git branch -M branch_name
+```
+Switch to the new branch
+```
+git checkout branch_name
+or 
+git switch branch_name (Morden way)
+```
+
+Make changes in the new branch
+## Branching Practice
+This change is in learn-branching branch.
+
+Commit the change (only in this branch)
+```
+git add README.md
+git commit -m "Add branching practice notes"
+```
+>This commit exists only in learn-branching.
+
+
+
+## This Readfile is updated and merged while cloning
+ gh-clone-HTTPs.
+## Sub folder with the Clone repo via HTTPS. 
 
 So This repo is again created inside the Existing GH repo.
 
