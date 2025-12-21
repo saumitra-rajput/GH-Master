@@ -118,11 +118,7 @@ You need to switch branches
 You need to pull latest changes
 
 You’re not ready to commit
-
-
-
-
-
+Updated more about it in the readme file of stash folder.
 
 
 ## End of Stash

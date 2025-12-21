@@ -1,5 +1,23 @@
 TBU
 
+## Stash
+
+```git stash```
+
+Temporarily save uncommitted changes and clean your working directory
+
+Think of it as:
+
+📦 Put my unfinished work in a box and come back later
+
+You’re working on something, then:
+
+You need to switch branches
+
+You need to pull latest changes
+
+You’re not ready to commit
+
 A test Change.
 
 ## Codespace work
