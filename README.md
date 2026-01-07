@@ -1,6 +1,6 @@
-# GH-Basics 🚀
+# gh-master 🚀
 
-GH-Basics is a beginner-friendly Git & GitHub learning repository designed to demonstrate core version-control concepts, clean workflows, and documentation best practices.
+gh-master is a beginner-friendly Git & GitHub learning repository designed to demonstrate core version-control concepts, clean workflows, and documentation best practices.
 
 This project is part of my DevOps & Cloud learning journey and reflects real-world Git usage, not just theory.
 
