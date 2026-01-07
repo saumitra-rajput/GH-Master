@@ -4,6 +4,9 @@ GH-Basics is a beginner-friendly Git & GitHub learning repository designed to de
 
 This project is part of my DevOps & Cloud learning journey and reflects real-world Git usage, not just theory.
 
+## 📄 License
+This project is licensed under the MIT License.
+
 ---
 
 ### 👀 Why Recruiters Should Care
